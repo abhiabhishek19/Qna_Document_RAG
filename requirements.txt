@@ -86,3 +86,6 @@ streamlit
 
 tqdm
 requests
+
+docling
+langchain-docling
