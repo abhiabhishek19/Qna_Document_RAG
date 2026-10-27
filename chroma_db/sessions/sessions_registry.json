@@ -1,0 +1,68 @@
+{
+  "active_session_id": "e76d1703",
+  "sessions": {
+    "b3ab281b": {
+      "id": "b3ab281b",
+      "title": "Resume Abhishek",
+      "created_at": "2026-10-27 13:18",
+      "updated_at": "2026-10-27 13:26",
+      "filename": "Abhishek_Shukla_AI_Resume.pdf",
+      "chunk_count": 10,
+      "db_ready": true,
+      "chat_history": [
+        {
+          "question": "What are the AI projects mentioned in the resume ?",
+          "answer": "The provided document mentions **one AI-related project** under the AI/ML Internship at YBI Foundation:\n\n- **Built a content-based recommendation engine** using **TF-IDF vectorization** and **cosine similarity** on **4,760+ data points**, improving recommendation accuracy by **35%** and similarity match precision by **25%**.",
+          "datasource": "vectorstore",
+          "sources": [
+            {
+              "label": "tmph12evquv.pdf  —  TECHNICAL SKILLS",
+              "preview": "TECHNICAL SKILLS AI / GenAI: LangChain, LangGraph, RAG, Agentic AI, Prompt Engineering, HuggingFace, Vector Databases (ChromaDB, FAISS) , Tool Calling…"
+            },
+            {
+              "label": "tmph12evquv.pdf  —  AI / ML Intern |  YBI Foundation",
+              "preview": "AI / ML Intern |  YBI Foundation Sep 2024 -Oct 2024 - Built a content-based recommendation engine using TF-IDF vectorisation and cosine similarity on …"
+            }
+          ]
+        },
+        {
+          "question": "what are the certifications mentioned in the resume ",
+          "answer": "The provided document lists the following certification period but does **not** specify the actual certifications obtained during **2021–2025**.\n\nFor the exact certifications, additional details or another section of the document would be required.",
+          "datasource": "vectorstore",
+          "sources": [
+            {
+              "label": "tmph12evquv.pdf  —  CERTIFICATIONS",
+              "preview": "CERTIFICATIONS 2021 -2025…"
+            }
+          ]
+        }
+      ]
+    },
+    "e76d1703": {
+      "id": "e76d1703",
+      "title": "What is the difference between…",
+      "created_at": "2026-10-27 13:27",
+      "updated_at": "2026-10-27 13:31",
+      "filename": "RAG_Marathon_Session1_Notes.pdf",
+      "chunk_count": 123,
+      "db_ready": true,
+      "chat_history": [
+        {
+          "question": "what is the difference between bi-encoder vs cross-encoder mentioned in the notes ",
+          "answer": "In the provided context, the difference between **bi-encoder** and **cross-encoder** is as follows:\n\n- **Bi-encoder**:\n  - Embeds the **query** and **document separately**.\n  - Compares them using **cosine similarity** for retrieval.\n  - **Fast** and used for **initial retrieval** (e.g., narrowing down millions of documents to a small set).\n\n- **Cross-encoder**:\n  - Embeds the **query and document together** using **cross-attention**.\n  - **Slower** but **more accurate** for **reranking** a small candidate set (e.g., refining top 15 results).",
+          "datasource": "vectorstore",
+          "sources": [
+            {
+              "label": "tmpoj5hzn0u.pdf  —  Cross-encoder",
+              "preview": "Cross-encoder Why you can't just use a cross-encoder for everything: if cross-encoders are more accurate, why not skip embeddings entirely and crossen…"
+            },
+            {
+              "label": "tmpoj5hzn0u.pdf  —  Meaning",
+              "preview": "Meaning  Span, 1 = One atomic unit of execution in an observability trace. Trace, 1 = A collection of related spans representing one complete logical …"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

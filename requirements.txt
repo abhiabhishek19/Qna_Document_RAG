@@ -65,6 +65,7 @@ openai
 mistralai
 
 chromadb
+langchain-chroma
 
 sentence-transformers
 
@@ -89,3 +90,9 @@ requests
 
 docling
 langchain-docling
+
+langgraph
+langchain-tavily
+langchain-huggingface
+langsmith
+pydantic
